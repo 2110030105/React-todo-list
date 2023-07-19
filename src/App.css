@@ -1,0 +1,77 @@
+.App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .App-header {
+    background-color: #9c19dd;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+  }
+  
+  .TaskForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .TaskForm input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 2px solid #9c19dd;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .TaskForm button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #9c19dd;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .TaskForm button:hover {
+    background-color: #9c19dd;
+  }
+  
+  .TaskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .TaskList li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .TaskList li span {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .TaskList button.delete {
+    padding: 4px 8px;
+    font-size: 14px;
+    background-color: #f44336;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .TaskList button.delete:hover {
+    background-color: #d32f2f;
+  }
+  
